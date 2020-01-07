@@ -1,6 +1,6 @@
 ## Hunt Web
 
-Projeto cem react.js:
+Projeto com react.js:
 Consome um api rest para listagem de dados e detalhes de informações dos produtos.
 
 
