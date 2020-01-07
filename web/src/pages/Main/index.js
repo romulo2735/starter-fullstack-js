@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import api from './../../services/api';
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
@@ -25,7 +25,7 @@ export default class Main extends Component {
 
   /** Paginação  */
   prevPage = () => {
-    const { page, productInfo } = this.state;
+    const { page } = this.state;
 
     if (page === 1) return;
 
@@ -53,9 +53,8 @@ export default class Main extends Component {
             <article key={product._id}>
               <strong>{product.title}</strong>
               <p>{product.description}</p>
-              <Router>
-                <Link to={`/products/${product._id}`}>Acessar</Link>
-              </Router>
+
+              <Link to={`/products/${product._id}`}>Acessar</Link>
             </article>
           ))
         }

@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import api from './../../services/api';
 import './style.css';
 
@@ -22,9 +23,8 @@ export default class Product extends Component {
         <h1>{product.title}</h1>
         <p>{product.description}</p>
 
-        <p>
-          URL: <a href={product.url}>{product.url}</a>
-        </p>
+        <a href={product.url} target="_blank">{product.url}</a>
+        <Link to='/'>Voltar</Link>
       </div>
     )
   }
