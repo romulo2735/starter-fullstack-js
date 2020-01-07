@@ -14,6 +14,16 @@ Consome um api rest para listagem de dados e detalhes de informações dos produ
   - Execute as dependências: `npm install`
   - Execute o projeto: `npm start` ou `yarn start`
 
+
+# Imagens
+![image info](./screenshots/screen-1.png)
+![image info](./screenshots/screen-2.png)
+![image info](./screenshots/screen-3.png)
+![image info](./screenshots/screen-4.png)
+![image info](./screenshots/screen-5.png)
+
+
+
 ## Pacotes Ultilizados
 
 ### [Axios](https://www.npmjs.com/package/axios)
