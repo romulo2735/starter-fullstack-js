@@ -1,1 +1,0 @@
-starter-fullstack-js
