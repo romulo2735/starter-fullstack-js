@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class App extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Hunt Mobile</Text>
-        <View style={styles.box}></View>
-      </View>
-    );
-  }
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -19,15 +16,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  welcome: {
-    fontSize: 30,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    margin: 10,
-  },  
-  box: {
-    width: 60,
-    height: 60, 
-    backgroundColor: '#f00',
-  }
 });
